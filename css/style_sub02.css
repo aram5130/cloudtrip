@@ -1,0 +1,340 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+ul,ol,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html,body {
+    width: 100%;
+}
+header{
+    width: 1920px;
+    height: 1135px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+header .top01{
+    width: 1850px;
+    height: 189px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+    position: relative;
+}
+/* 유틸 */
+.top-util{
+    padding: 40px 78px 0 0;
+    float: right;
+    font-size: 20pt;
+}
+.top-util ul li{
+    padding-right: 45px;
+    float: left;
+    z-index: 9999;
+}
+.top-util ul li:last-child{
+    padding-right:0;
+}
+.top-util ul li a{
+    color: white;
+    font-size: 12pt;
+}
+/* 유틸 끝 */
+
+/* 네비 */
+.topwrap{
+    background: rgba(0, 0, 0, 0.7);
+    width: 1850px;
+    height: 150px;
+    position: absolute;
+    top: 189px;
+    left: 35px;
+    display: none;
+}
+.topwrap.on{
+    display: block;
+}
+.top_navi ul li{
+    float: left;
+    padding-right: 135px;
+    color: white;
+}
+.top_navi{
+    position: absolute;
+}
+.top_navi .logo{
+    float: left;
+    margin: 48px 124px 0 65px;
+}
+.top_navi .menu{
+    float: left;
+    padding: 110px 0 60px;
+    font-size: 14pt;
+}
+.top_navi ul li a{
+    color: white;
+}
+.top_navi .menugnb>li:hover>a{
+    color: #e2ab5e;
+    border-bottom: 5px #e2ab5e solid;
+}
+.submenu {
+    width: 260px;
+    display: none;
+    height: auto; 
+    position: absolute; 
+    top: 150px;
+    /* font-size: 1rem; */
+}
+.submenu.on{
+    display: block;
+}
+.submenu li{
+    width: 100%;
+    margin-bottom: 6px;
+
+}
+.submenu li a{
+    display: block;
+    width:100%;
+}
+.submenu li a:hover{
+    color: #e2ab5e;
+}
+/* 네비 끝 */
+
+/* 네비 검색바 */
+.search{
+    position: absolute;
+    top: 105px;
+    right: 71px;
+}
+.search input{
+    width: 190px;
+    height: 18px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.548);
+    color: white;
+}
+/* 네비 검색바 끝 */
+
+/* 중앙 검색 바 */
+.search-bar{
+    width: 100%;
+    height: 135px;
+    background: #e2ab5eda;
+    bottom: 0%;
+    position: absolute;
+}
+.search-bar .search-in{
+    width: 1120px;
+    margin: 15px auto 20px ;
+    position: relative;
+}
+.search-bar .checkunder{
+    height: 110px;
+    margin-top: 5px;
+    position: absolute;
+}
+.search-bar .checkunder input:first-child{
+    width: 550px;
+    height: 35px;
+    border: none;
+    margin: 0 10px 15px 0;
+}
+.search-bar .checkunder input:nth-child(2){
+    width: 550px;
+    height: 35px;
+    border: none;
+}
+.search-bar .checkunder input:nth-child(3){
+    width: 450px;
+    height: 35px;
+    border: none;
+}
+.search-bar .checkunder input:nth-child(4){
+    width: 450px;
+    height: 35px;
+    border: none;
+    margin: 0 10px 0 10px;
+}
+.search-bar .checkunder input:last-child{
+    width: 185px;
+    height: 35px;
+    background: #2e323b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    line-height: 35px;
+    cursor: pointer;
+}
+/* 중앙 검색 바 끝 */
+
+
+/* 하트 */
+.heart{
+    display: none;
+}
+/* 하트 */
+
+/* 00.상단 아이콘 */
+.butten_bar{
+    width: 1920px;
+    height: 200px;
+    background-color: #2e323b;
+    margin-bottom: 95px;
+}
+.butten_bar ul{
+    width: 1920px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.butten_bar ul li{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin: 35px;
+}
+/* 00.상단 아이콘 끝 */
+
+/* 1. 1.최저가항공권 772*/
+
+/* 1. 1.최저가항공권 끝 */
+
+
+
+
+
+
+
+/* 버튼 */
+.butten_out{
+    width: 1920px;
+    margin: 0 auto;
+}
+.butten{
+    width: 938px;
+    height: 287px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px 0 50px 0;
+}
+.butten li{
+    position: relative;
+    width: 182px;
+    height: 182px;
+    border-radius: 100%;
+    float: left;
+    background: white;
+    margin:0 70px 0 0px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.butten .butwarp li:last-child{
+    margin-right: 0;
+}
+.butten .btn_block{
+    display: none;
+}
+.butten .butwarp li a img {
+    position: absolute;
+    top: 30px;
+    left: 46px;
+}
+.butten .butwarp li:last-child a img{
+    top: 45px;
+}
+.butten li:hover{
+    background: #2e323b;
+}
+.butten li:hover .btn_block{
+    display: block;
+}
+/* 버튼 끝 */
+/* 하단 라인바 */
+.line-bar{
+    height: 60px;
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #2e323b;
+}
+.line-bar .linewrap{
+    width: 1120px;
+    height: 60px;
+    margin: 0 auto;
+}
+.line-bar .linewrap a{
+    color: white;
+    margin-right: 20px;
+    font-size: 9pt;
+}
+.line-bar .linewrap .line-txt{
+    float: left;
+}
+.line-bar .linewrap .line-img{
+    float: right;
+    margin-top: 10px;
+}
+.line-bar .linewrap li{
+    float: left;
+    line-height: 60px;
+    font-weight: bold;
+}
+/* 하단 라인바 끝 */
+/* 푸터 */
+.footer_box{
+    width: 1920px;
+}
+.footerline{
+    width: 1120px;
+    margin: 0 auto;
+}
+.footerline .footerline-wrap .under-logo{
+    padding-top: 20px;
+    text-align: left;
+}
+.footerline .footerline-wrap{
+    width: 850px;
+    height: 225px;
+    float: left;
+    text-align: left;
+}
+.footerline-wrap .footer-txt{
+    margin: 10px 0 10px;
+    font-size: 9pt;
+    line-height: 18px;
+}
+.footerline-wrap .end{
+    margin: 30px 0 10px 0;
+    font-size: 9pt;
+    font-weight: bold;
+    color: black;
+}
+.footerline .footercs{
+    width: 160px;
+    padding-top: 40px;
+    float: right;
+    text-align: right;
+}
+.footerline .footercs .cs p{
+    font-size: 10pt;
+    line-height: 18px;
+}
+
+h3{
+    font-size: 18px;
+}
+.txt1 p{
+    font-size: 14px;
+}

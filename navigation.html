@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- 페이지 아이콘 -->
+        <link rel="icon" href="{{ url_for('static', filename='img/film-solid.svg') }}">
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        {% if title %}
+            <title>{{ title }}</title>
+        {% endif %}
+
+
+        <!-- 자바스크립트 -->
+        <script defer src="{{ url_for('static', filename='js/index.js') }}"></script>
+        <script defer src="{{ url_for('static', filename='js/ranking.js') }}"></script>
+        <script defer src="{{ url_for('static', filename='js/shrinkNavBar.js') }}"></script>
+
+    </script>
+
+
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+<div class="topwrap">
+    <div class="top01">
+        <div class="top-util">
+                <ul>
+                    <li><a href="#"><img src="images/util1.png" alt="로그인">&nbsp;&nbsp;LOGIN</a></li>
+                    <li><a href="#"><img src="images/util3.png" alt="회원가입">&nbsp;&nbsp;JOIN</a></li>
+                    <li><a href="#"><img src="images/util2.png" alt="마이페이지">&nbsp;&nbsp;MYPAGE</a></li>
+                </ul>
+        </div>
+        <div class="top_navi">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/001_logo(폰트흰색).png" alt="로고1">
+                </a>
+            </div>
+            <div class="menu">
+                <ul class="menugnb">
+                    <li><a href="#">항공</a>
+                        <ul class="submenu">
+                            <li><a href="#">예약</a></li>
+                            <li><a href="#">특가</a></li>
+                            <li><a href="#">항공사 기획전</a></li>
+                            <li><a href="#">항공공지사항</a></li>
+                            <li><a href="#">여행정보</a></li>
+                        </ul>
+                    </li>
+                <li><a href="/sub_01.html">숙소</a>
+                    <ul class="submenu">
+                        <li><a href="#">호텔</a></li>
+                        <li><a href="#">레스던스</a></li>
+                        <li><a href="#">호스텔</a></li>
+                        <li><a href="#">장기숙박</a></li>
+                    </ul>
+                </li>
+                <li><a href="/sub_02.html">해외여행</a>
+                    <ul class="submenu">
+                        <li><a href="#">유럽</a></li>
+                        <li><a href="#">미주/중남미</a></li>
+                        <li><a href="#">동남아</a></li>
+                        <li><a href="#">대만/홍콩/마카오</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">국내여행</a>
+                    <ul class="submenu">
+                        <li><a href="#">수도권</a></li>
+                        <li><a href="#">강원/경상</a></li>
+                        <li><a href="#">충청/전라</a></li>
+                        <li><a href="#">제주/울릉/독도</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">액티비티</a>
+                    <ul class="submenu">
+                        <li><a href="#">인기여행지</a></li>
+                        <li><a href="#">베스트셀러</a></li>
+                        <li><a href="#">국내</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">이벤트</a></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        
+        <div class="search">
+            <input type="search">
+            <a href="#"><img src="images/search.png" alt="검색"></a>
+        </div>
+    </div>

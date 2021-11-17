@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOUD TRIP</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        header{
+            background-image: url('images/001_main_img.png');
+        }
+        body{
+            background-image: url('images/01_bg_t.png');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topwrap"></div>
+        <div class="top01">
+            <div class="top-util">
+                    <ul>
+                        <li><a href="#"><img src="images/util1.png" alt="로그인">&nbsp;&nbsp;LOGIN</a></li>
+                        <li><a href="#"><img src="images/util3.png" alt="회원가입">&nbsp;&nbsp;JOIN</a></li>
+                        <li><a href="#"><img src="images/util2.png" alt="마이페이지">&nbsp;&nbsp;MYPAGE</a></li>
+                    </ul>
+            </div>
+            <div class="top_navi">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/001_logo(폰트흰색).png" alt="로고1">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menugnb">
+                        <li><a href="#">항공</a>
+                            <ul class="submenu">
+                                <li><a href="#">예약</a></li>
+                                <li><a href="#">특가</a></li>
+                                <li><a href="#">항공사 기획전</a></li>
+                                <li><a href="#">항공공지사항</a></li>
+                                <li><a href="#">여행정보</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="/sub_01.html">숙소</a>
+                        <ul class="submenu">
+                            <li><a href="#">호텔</a></li>
+                            <li><a href="#">레스던스</a></li>
+                            <li><a href="#">호스텔</a></li>
+                            <li><a href="#">장기숙박</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/sub_02.html">해외여행</a>
+                        <ul class="submenu">
+                            <li><a href="#">유럽</a></li>
+                            <li><a href="#">미주/중남미</a></li>
+                            <li><a href="#">동남아</a></li>
+                            <li><a href="#">대만/홍콩/마카오</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">국내여행</a>
+                        <ul class="submenu">
+                            <li><a href="#">수도권</a></li>
+                            <li><a href="#">강원/경상</a></li>
+                            <li><a href="#">충청/전라</a></li>
+                            <li><a href="#">제주/울릉/독도</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">액티비티</a>
+                        <ul class="submenu">
+                            <li><a href="#">인기여행지</a></li>
+                            <li><a href="#">베스트셀러</a></li>
+                            <li><a href="#">국내</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">이벤트</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search">
+                <input type="search">
+                <a href="#"><img src="images/search.png" alt="검색"></a>
+            </div>
+        </div>
+            <div class="top-banner">
+                <p>뉴욕의 아침부터 저녁까지 여유와 실속을 함께 _</p>
+                <h1>뉴욕시티 일주일 <br> 투어 패키지</h1>
+                <p>관광 명소부터 로컬 핫 플레이스까지 <br>
+                    여유있는 일정의 패키지</p>
+                <a href="#"><img src="images/001_more.png" alt="1_more"></a>
+            </div>
+        <div class="search-bar">
+            <div class="search-in">
+                <div class="check">
+                    <input type="checkbox" name="objective" value="trip" checked> 여행
+		            <input type="checkbox" name="objective" value="Businesstrip"> 출장
+                </div>
+                <div class="checkunder">
+                    <input type="text" placeholder="&nbsp;&nbsp;여행지(나라/도시/공항)">
+                    <input type="text" placeholder="&nbsp;&nbsp;날짜">
+                    <input type="text" placeholder="&nbsp;&nbsp;인원">
+                    <input type="submit" value="검&nbsp;&nbsp;색">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+         <!-- 1.TODAY'S -->
+         <div class="today">  
+            <div class="todaywrap">
+            <h5>오늘의 딜</h5>
+            <h3>TODAY'S</h3>
+                <div class="today-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <img src="images/01_pc_img1.png" alt="이미지1">
+                    <p>[미국] 라스베가스<br>최대 <span>48%</span> 할인</p>
+                </div>
+                <div class="today-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <img src="images/01_pc_img2.png" alt="이미지2">
+                    <p>[인도네시아] 발리<br>마감임박 <span>60%</span> 할인</p>
+                </div>
+                <div class="today-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <img src="images/01_pc_img3.png" alt="이미지3">
+                    <p>[아랍에미리트] 두바이<br>최대 <span>35%</span> 할인</p>
+                </div>
+                <div class="today-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <img src="images/01_pc_img4.png" alt="이미지4">
+                    <p>[영국] 런던<br>연박 <span>20%</span> 할인</p>
+                </div>
+            </div>
+        </div>
+        <!-- 1.TODAY'S 끝 -->
+        <!-- 2.EVENT -->
+        <div class="event">
+            <div class="eventwrap">
+                <h5>이벤트</h5>
+                <h3>EVENT</h3>
+                <div class="event-box">
+                    <a href="#"><img src="images/02_pc_banner1.png" alt="배너1"></a>
+                </div>
+                <div class="event-box">
+                    <a href="#"><img src="images/02_pc_banner2.png" alt="배너2"></a>
+                </div>
+                <div class="event-box">
+                    <a href="#"><img src="images/02_pc_banner3.png" alt="배너3"></a>
+                </div>
+                <div class="event-box">
+                    <a href="#"><img src="images/02_pc_banner4.png" alt="배너4"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 2.EVNET 끝 -->
+        <!-- 3.BEST -->
+        <div class="best">
+            <div class="bestwrap">
+                <h5>이달의 베스트</h5>
+                <h3>BEST</h3>
+                <div class="best_boxwrap">
+                    <div class="best_bx01">
+                        <div class="bb01">
+                                <div class="best-box">
+                                    <div class="bb01_1">
+                                    <img src="images/03_pc_img1.png" alt="이미지5">
+                                </div>
+                            </div>
+                            <div class="best-box">
+                                <img src="images/03_pc_img2.png" alt="이미지6">
+                            </div>
+                        </div>
+                        <div class="bb02">
+                            <div class="best-box">
+                                <img src="images/03_pc_img3.png" alt="이미지7">
+                            </div>
+                        </div>
+                        <div class="bb03">
+                                <div class="best-box">
+                                    <div class="bb01_1">
+                                    <img src="images/03_pc_img4.png" alt="이미지8">
+                                </div>
+                            </div>
+                            <div class="best-box">
+                                <img src="images/03_pc_img5.png" alt="이미지9">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_txtbt">
+                        <div class="besttxt">
+                            <div class="txt1">
+                                <span>01</span>
+                                    <div class="name1"> <h3>LONDON</h3>런던</div>
+                            </div>
+                            <div class="txt1">
+                                <span>02</span>
+                                    <div class="name1"> <h3>ITALY</h3>이탈리아</div>
+                            </div>
+                            <div class="txt1">
+                                <span>03</span>
+                                    <div class="name1"><h3>SEATTLE</h3>시애틀</div>
+                            </div>
+                            <div class="txt1">
+                                <span>04</span>
+                                    <div class="name1"><h3>NEW ZEALAND</h3>뉴질랜드</div>
+                            </div>
+                            <div class="txt1">
+                                <span>05</span>
+                                    <div class="name1"><h3>AUSTRALIA</h3>호주</div>
+                            </div>
+                         </div>
+
+                        <div class="bestbt">
+                            <input type="submit" value="더보기">
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <!-- 3.BEST 끝-->
+        <!-- 4.SUBUSCRIDE&MAP -->
+        <div class="email-map">
+            <div class="emailwarp">
+                <h5>E.mail & DIY 여행지도</h5>
+                <h3>SUBUSCRIDE & MAP</h3>
+                <div class="emailwarp-in">
+                    <div class="mail-box">
+                        <h2><span>할인</span>과 <span>혜택</span>을 받고 <br>여행을 떠나고 싶다면? </h2><br><br>
+                            <p> 할인받고 여행을 떠나고 싶어요! <br>클라우드 트립 최신 프로모션 및 <br>
+                            특가 소식 구독</p>
+                            <input type="submit" value="더보기">
+                            <img class="mailimg" src="images/mailbox.png" alt="메일">
+                    </div>
+                    <div class="map-box">
+                        <h2><span>DIY</span>와 <br>SAVE!</h2> <br><br>
+                            <p>가고싶은 여행지를 지도에 <br>저장하고 <br>여행 계획을 세우세요.</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27939.489023295235!2d-73.9956911247521!3d40.74374110828778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2z7Jeg7YyM7J207Ja0IOyKpO2FjOydtO2KuCDruYzrlKk!5e0!3m2!1sko!2skr!4v1619688419259!5m2!1sko!2skr" width="230" height="194" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <input type="submit" value="더보기">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4.SUBUSCRIDE&MAP 끝 -->
+    </section>
+
+        <!-- 3.버튼 -->
+        <section>
+            <div class="butten_out">
+                <div class="butten">
+                    <ul class="butwarp">
+                        <li>
+                            <a href="#">
+                                <img src="images/butten_01.png" alt="b01" class="on">
+                                <img src="images/butten_01white.png" alt="b01"  class="btn_block">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/butten_02.png" alt="b02" class="on">
+                                <img src="images/butten_02white.png" alt="b02" class="btn_block">
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="images/butten_03.png" alt="b03" class="on">
+                                <img src="images/butten_03white.png" alt="b03" class="btn_block">
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="images/butten_04.png" alt="b04" class="on">
+                                <img src="images/butten_04white.png" alt="b04" class="btn_block">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- 3.버튼 끝-->
+
+    <!-- 하단 -->
+    <footer>
+        <div class="line-bar">
+            <div class="linewrap">
+                <ul class="line-txt">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">서비스이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">광고/제휴문의</a></li>
+                    <li><a href="#">전자우편무단수집거부</a></li>
+                </ul>
+                <ul class="line-img">
+                    <li><a href="#"><img src="images/10_youtube.png" alt="line1"></a></li>
+                    <li><a href="#"><img src="images/10_instar.png" alt="line2"></a></li>
+                    <li><a href="#"><img src="images/10_kakao.png" alt="line3"></a></li>
+                    <li><a href="#"><img src="images/10_facebook.png" alt="line4"></a></li>
+                    <li><a href="#"><img src="images/10_tweeter.png" alt="line5"></a></li>
+                    <li><a href="#"><img src="images/10_blog.png" alt="line6"></a></li>
+                </ul>
+            </div>
+        </div>
+    <div class="footerline">
+        <div class="footerline-wrap">
+            <div class="under-logo">
+                <a href="#"><img src="images/001logo_text.png" alt="fontlogo1"></a><br>
+            </div>
+            <div class="footer-txt">
+                <p>상호명 : (주)클라우드 트립 &nbsp;  사업장소재지 : 서울특별시 강남구 선릉로 혜림빌딩 &nbsp; 팩스 : 070-0000-0000
+                &nbsp; 사업자등록번호 : 000-00-00000 <br>고객센터 : 1234-5678 &nbsp; 상담시간 00:00-24:00 / OFF-TIME 12:00-13:00 (공휴일 휴무)
+                이메일 : HELLO@CLOUDTRIP.CO.KR <br>대표이사 : 이아람 개인정보책임자 : 이아람 <br>
+                CLOUDTRIP에서 중계되는 모든 상품은 각 업체에서 책임을 지고 있습니다.
+                </p>
+            </div>
+            <div class="end">
+                <p><a href="#">개인정보처리방침</a>&nbsp;|&nbsp; <a href="#">이용약관</a></p>
+                <p>COPYRIGHT 2021. CLOUDTIRP ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+        <div class="footercs">
+            <div class="cs">
+                <h5>CS CENTER</h5>
+                <h2>1234-5678</h2>
+                <p>AM 00:00 ~ PM 24:00</p>
+                <P>OFF-TIME 12:00 ~ 13:00</P>
+                <P>공휴일은 휴무입니다.</P>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+<script type="text/javascript">
+      const sw=true;
+  $('.heart li').click(function(){
+        $(this).removeClass('on').siblings().addClass('on');
+      });
+
+   $('.menu li').mouseenter(function(){
+        $(".topwrap").addClass('on');
+        $(".submenu").addClass('on');
+      });
+      $('.topwrap').mouseleave(function(){
+        $(".topwrap").removeClass('on');
+        $(".submenu").removeClass('on');
+      });
+</script>
+</html> 

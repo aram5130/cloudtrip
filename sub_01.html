@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOUD TRIP</title>
+    <link rel="stylesheet" href="css/style_sub01.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href ="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+<style>
+    header{
+        background-image: url('images/sub01_01main.png');
+    }
+    body{
+        background-image: url('images/sub01_bg1.png');
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="topwrap"></div>
+        <div class="top01">
+            <div class="top-util">
+                    <ul>
+                        <li><a href="#"><img src="images/util1.png" alt="로그인">
+                            &nbsp;&nbsp;LOGIN</a></li>
+                        <li><a href="#"><img src="images/util3.png" alt="회원가입">
+                            &nbsp;&nbsp;JOIN</a></li>
+                        <li><a href="#"><img src="images/util2.png" alt="마이페이지">
+                            &nbsp;&nbsp;MYPAGE</a></li>
+                    </ul>
+            </div>
+            <div class="top_navi">
+                <div class="logo">
+                    <a href="main.html">
+                        <img src="images/001_logo(폰트흰색).png" alt="로고1">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menugnb">
+                        <li><a href="#">항공</a>
+                                <ul class="submenu">
+                                    <li><a href="#">예약</a></li>
+                                    <li><a href="#">특가</a></li>
+                                    <li><a href="#">항공사 기획전</a></li>
+                                    <li><a href="#">항공공지사항</a></li>
+                                    <li><a href="#">여행정보</a></li>
+                                </ul>
+                            </li>
+                        <li><a href="#">숙소</a>
+                            <ul class="submenu">
+                                <li><a href="#">호텔</a></li>
+                                <li><a href="#">레스던스</a></li>
+                                <li><a href="#">호스텔</a></li>
+                                <li><a href="#">장기숙박</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">해외여행</a>
+                            <ul class="submenu">
+                                <li><a href="#">유럽</a></li>
+                                <li><a href="#">미주/중남미</a></li>
+                                <li><a href="#">동남아</a></li>
+                                <li><a href="#">대만/홍콩/마카오</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">국내여행</a>
+                            <ul class="submenu">
+                                <li><a href="#">수도권</a></li>
+                                <li><a href="#">강원/경상</a></li>
+                                <li><a href="#">충청/전라</a></li>
+                                <li><a href="#">제주/울릉/독도</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">액티비티</a>
+                            <ul class="submenu">
+                                <li><a href="#">인기여행지</a></li>
+                                <li><a href="#">베스트셀러</a></li>
+                                <li><a href="#">국내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search">
+                <input type="search">
+                <a href="#"><img src="images/search.png" alt="검색"></a>
+            </div>
+        </div>
+        <div class="search-bar">
+            <div class="search-in">
+                <div class="check">
+                    <input type="checkbox" name="objective" value="total" checked> 전체
+		            <input type="checkbox" name="objective" value="hotel"> 호텔
+                    <input type="checkbox" name="objective" value="residence"> 레지던스 
+                    <input type="checkbox" name="objective" value="hostel"> 호스텔
+                    <input type="checkbox" name="objective" value="longterm"> 장기숙박
+                </div>
+                <div class="checkunder">
+                    <input type="text" placeholder="&nbsp;&nbsp;여행지(나라/도시/공항)">
+                    <input type="text" placeholder="&nbsp;&nbsp;도시">
+                    <input type="date" placeholder="&nbsp;&nbsp;체크인">
+                    <input type="date" placeholder="&nbsp;&nbsp;체크아웃">
+                    <input type="text" placeholder="&nbsp;&nbsp;인원">
+                    <input type="submit" value="검&nbsp;&nbsp;색">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <!-- 1.테마 -->
+        <div class="thema">
+            <h5>테마별 객실</h5>
+            <h3>THEMA ROOM</h3>
+            <div class="themawrap">
+                <div class="themabox">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <div class="thema_inner">
+                        <a href="#"><img src="images/sub01_img01.png" alt="themaimg"></a>
+                    </div>
+                </div>
+                <div class="themabox">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <div class="thema_inner">
+                        <a href="#"><img src="images/sub01_img02.png" alt="themaimg"></a>
+                    </div>
+                </div>
+                <div class="themabox">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <div class="thema_inner">
+                        <a href="#"><img src="images/sub01_img03.png" alt="themaimg"></a>
+                    </div>
+                </div>
+                <div class="themabox">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <div class="thema_inner">
+                        <a href="#"><img src="images/sub01_img04.png" alt="themaimg"></a>
+                    </div>
+                </div>
+                <div class="themabox">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <div class="thema_inner">
+                        <a href="#"><img src="images/sub01_img05.png" alt="themaimg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="thematxt">
+                <ul>
+                    <li><span>01</span>&nbsp;&nbsp;프라이빗 빌라</li>
+                    <li><span>02</span>&nbsp;&nbsp;풀빌라</li>
+                    <li><span>03</span>&nbsp;&nbsp;아파트먼트</li>
+                    <li><span>04</span>&nbsp;&nbsp;홀리데이 테마</li>
+                    <li><span>05</span>&nbsp;&nbsp;방갈로</li>
+                </ul> 
+            </div>
+                <input type="submit" value="더보기"> 
+        </div>
+    </section>
+    <!-- 1.테마 끝 -->
+    <!-- 2.리뷰 -->
+    <section>
+    <div class="review">
+        <div class="reviewinner">
+            <h5>숙소 후기</h5>
+            <h3>REVIWE</h3>
+                <div class="reviewwrap">
+                    <div class="reviewbox">
+                        <ul>
+                            <li><a href="#"><img src="images/sub01_review01.png" alt="riviewimg"></a></li>
+                            <li><br><img src="images/sub01_bullet.png" alt="bullet">&nbsp;Hostellerie le Marechal <br>
+                                &nbsp;&nbsp;프랑스 콜마르</li>
+                            <li><p>&nbsp;&nbsp;&nbsp;구시가지에서 가까운 예쁜 호텔.<br>
+                                &nbsp;&nbsp;&nbsp;다락방에 룸이 있었는데 주변<br>
+                                &nbsp;&nbsp;&nbsp;집들의 지붕이나, 강도 보이고<br>
+                                &nbsp;&nbsp;&nbsp;좋았어요. 주차장이 없으니 참고하세요.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviewbox">
+                        <ul>
+                            <li><a href="#"><img src="images/sub01_review02.png" alt="riviewimg"></a></li>
+                            <li><br><img src="images/sub01_bullet.png" alt="bullet">&nbsp;Beach Club at St. Simons <br>
+                                &nbsp;&nbsp;&nbsp;미국 세인트시몬스 아일랜드</li>
+                            <li><p>&nbsp;&nbsp;&nbsp;환상적인 전망. 흔들 의자와 거대한 발코니,<br>
+                                &nbsp;&nbsp;&nbsp;편안한 가구, 완비된 주방, 세탁기/건조기가<br>
+                                &nbsp;&nbsp;&nbsp;있는 작은. 방은 매우 깨끗했습니다. 수영장<br>
+                                &nbsp;&nbsp;&nbsp;도 좋았고, 훌륭한 서비스를 받았습니다.</p>
+                            </li>       
+                        </ul>
+                    </div>
+                    <div class="reviewbox">
+                        <ul>
+                            <li><a href="#"><img src="images/sub01_review03.png" alt="riviewimg"></a></li>
+                            <li><br><img src="images/sub01_bullet.png" alt="bullet">&nbsp;<span>Pod Times Square Hotel<br>
+                                &nbsp;&nbsp;&nbsp;미국 뉴욕</span>
+                            </li>
+                            <li><p>&nbsp;&nbsp;&nbsp;타임스퀘어 근처에 있어 교통이 좋고, 신축<br>
+                                &nbsp;&nbsp;&nbsp;이라 객실이 깨끗합니다. 다만 객실과 욕실<br>
+                                &nbsp;&nbsp;&nbsp;이 이 작은 편입니다.뉴욕 물가를 생각하면<br>
+                                &nbsp;&nbsp;&nbsp;가격 대비 만족스러운 곳.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviewbox">
+                        <ul>
+                            <li><a href="#"><img src="images/sub01_review04.png" alt="riviewimg"></a></li>
+                            <li><br><img src="images/sub01_bullet.png" alt="bullet">&nbsp;Marina Bay Sands<br>
+                                &nbsp;&nbsp;&nbsp;싱가포르
+                            </li>
+                            <li><p>&nbsp;&nbsp;&nbsp;루프탑에서 보는 노을이랑 야경이 너무<br>
+                                &nbsp;&nbsp;&nbsp;예뻐요. 객실에서 보이는 가든도 밤에<br>
+                                &nbsp;&nbsp;&nbsp;밝게 보여서 좋았어요. 침대가 푹신하고<br>
+                                &nbsp;&nbsp;&nbsp;넓어서 편안하게 잘쉬었어요.</p>                         
+                            </li>
+                        </ul>
+                    </div>
+                    <input type="submit" value="더보기">  
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2.리뷰 끝 -->    
+<!-- 3.버튼 -->
+<section>
+    <div class="butten_out">
+        <div class="butten">
+            <ul class="butwarp">
+                <li>
+                    <a href="#">
+                        <img src="images/butten_01.png" alt="b01" class="on">
+                        <img src="images/butten_01white.png" alt="b01"  class="btn_block">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/butten_02.png" alt="b02" class="on">
+                        <img src="images/butten_02white.png" alt="b02" class="btn_block">
+                    </a>
+                </li>
+                <li><a href="#">
+                        <img src="images/butten_03.png" alt="b03" class="on">
+                        <img src="images/butten_03white.png" alt="b03" class="btn_block">
+                    </a>
+                </li>
+                <li><a href="#">
+                        <img src="images/butten_04.png" alt="b04" class="on">
+                        <img src="images/butten_04white.png" alt="b04" class="btn_block">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- 3.버튼 끝-->
+
+<!-- 4.하단 -->
+<footer>
+    <div class="line-bar">
+        <div class="linewrap">
+            <ul class="line-txt">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">서비스이용약관</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">광고/제휴문의</a></li>
+                <li><a href="#">전자우편무단수집거부</a></li>
+            </ul>
+            <ul class="line-img">
+                <li><a href="#"><img src="images/10_youtube.png" alt="line1"></a></li>
+                <li><a href="#"><img src="images/10_instar.png" alt="line2"></a></li>
+                <li><a href="#"><img src="images/10_kakao.png" alt="line3"></a></li>
+                <li><a href="#"><img src="images/10_facebook.png" alt="line4"></a></li>
+                <li><a href="#"><img src="images/10_tweeter.png" alt="line5"></a></li>
+                <li><a href="#"><img src="images/10_blog.png" alt="line6"></a></li>
+            </ul>
+        </div>
+    </div>
+
+<div class="footerline">
+    <div class="footer_box">
+        <div class="footerline-wrap">
+            <div class="under-logo">
+                <a href="#"><img src="images/001logo_text.png" alt="fontlogo1"></a><br>
+            </div>
+            <div class="footer-txt">
+            <p>상호명 : (주)클라우드 트립 &nbsp;  사업장소재지 : 서울특별시 강남구 선릉로 혜림빌딩 &nbsp; 팩스 : 070-0000-0000
+            &nbsp; 사업자등록번호 : 000-00-00000 <br>고객센터 : 1234-5678 &nbsp; 상담시간 00:00-24:00 / OFF-TIME 12:00-13:00 (공휴일 휴무)
+            이메일 : HELLO@CLOUDTRIP.CO.KR <br>대표이사 : 이아람 &nbsp; 개인정보책임자 : 이아람 <br>
+            CLOUDTRIP에서 중계되는 모든 상품은 각 업체에서 책임을 지고 있습니다.
+                </p>
+            </div>
+            <div class="end">
+                <p><a href="#">개인정보처리방침</a>&nbsp;|&nbsp; <a href="#">이용약관</a></p>
+                <p>COPYRIGHT 2021. CLOUDTIRP ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+        <div class="footercs">
+            <div class="cs">
+                <h5>CS CENTER</h5>
+                <h2>1234-5678</h2>
+                <p>AM 00:00 ~ PM 24:00</p>
+                <P>OFF-TIME 12:00 ~ 13:00</P>
+                <P>공휴일은 휴무입니다.</P>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+<script type="text/javascript">
+    var sw=true;
+$('.heart li').click(function(){
+      $(this).removeClass('on').siblings().addClass('on');
+    });
+
+ $('.menu li').mouseenter(function(){
+      $(".topwrap").addClass('on');
+      $(".submenu").addClass('on');
+    });
+    $('.topwrap').mouseleave(function(){
+      $(".topwrap").removeClass('on');
+      $(".submenu").removeClass('on');
+    });
+
+
+</script>
+</html>

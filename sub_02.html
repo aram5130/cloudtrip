@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOUD TRIP</title>
+    <link rel="stylesheet" href="css/style_sub02.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href ="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+<style>
+    header{
+        background-image: url('images/sub02_main.png');
+    }
+    .airline{
+        background-image: url('images/sub02_bg02.png');
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="topwrap"></div>
+        <div class="top01">
+            <div class="top-util">
+                    <ul>
+                        <li><a href="#"><img src="images/util1.png" alt="로그인">
+                            &nbsp;&nbsp;LOGIN</a></li>
+                        <li><a href="#"><img src="images/util3.png" alt="회원가입">
+                            &nbsp;&nbsp;JOIN</a></li>
+                        <li><a href="#"><img src="images/util2.png" alt="마이페이지">
+                            &nbsp;&nbsp;MYPAGE</a></li>
+                    </ul>
+            </div>
+            <div class="top_navi">
+                <div class="logo">
+                    <a href="main.html">
+                        <img src="images/001_logo(폰트흰색).png" alt="로고1">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="menugnb">
+                        <li><a href="#">항공</a>
+                                <ul class="submenu">
+                                    <li><a href="#">예약</a></li>
+                                    <li><a href="#">특가</a></li>
+                                    <li><a href="#">항공사 기획전</a></li>
+                                    <li><a href="#">항공공지사항</a></li>
+                                    <li><a href="#">여행정보</a></li>
+                                </ul>
+                            </li>
+                        <li><a href="#">숙소</a>
+                            <ul class="submenu">
+                                <li><a href="#">호텔</a></li>
+                                <li><a href="#">레스던스</a></li>
+                                <li><a href="#">호스텔</a></li>
+                                <li><a href="#">장기숙박</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">해외여행</a>
+                            <ul class="submenu">
+                                <li><a href="#">유럽</a></li>
+                                <li><a href="#">미주/중남미</a></li>
+                                <li><a href="#">동남아</a></li>
+                                <li><a href="#">대만/홍콩/마카오</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">국내여행</a>
+                            <ul class="submenu">
+                                <li><a href="#">수도권</a></li>
+                                <li><a href="#">강원/경상</a></li>
+                                <li><a href="#">충청/전라</a></li>
+                                <li><a href="#">제주/울릉/독도</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">액티비티</a>
+                            <ul class="submenu">
+                                <li><a href="#">인기여행지</a></li>
+                                <li><a href="#">베스트셀러</a></li>
+                                <li><a href="#">국내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search">
+                <input type="search">
+                <a href="#"><img src="images/search.png" alt="검색"></a>
+            </div>
+        </div>
+        <div class="search-bar">
+            <div class="search-in">
+                <div class="check">
+                    <input type="checkbox" name="objective" value="total" checked> 왕복
+		            <input type="checkbox" name="objective" value="hotel"> 인원
+                    <input type="checkbox" name="objective" value="residence"> 일반석 
+                </div>
+                <div class="checkunder">
+                    <input type="text" placeholder="&nbsp;&nbsp;출발지(나라/도시/공항)">
+                    <input type="text" placeholder="&nbsp;&nbsp;도착지(나라/도시/공항)">
+                    <input type="date" placeholder="&nbsp;&nbsp;가는날(년,월,일)">
+                    <input type="date" placeholder="&nbsp;&nbsp;오는날(년,월,일)">
+                    <input type="submit" value="검&nbsp;&nbsp;색">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <!-- 00.상단 아이콘 -->
+            <div class="butten_bar">
+                <ul>
+                    <li><a href="#"><img src="/images/sub02_icon01.png" alt="icon"></a></li>
+                    <li><a href="#"><img src="/images/sub02_icon02.png" alt="icon"></a></li>
+                    <li><a href="#"><img src="/images/sub02_icon03.png" alt="icon"></a></li>
+                </ul>
+            </div>
+        <!-- 1.최저가항공권 -->
+        <div class="Flight">
+            <h5>최저가 항공권</h5>
+            <h3>Low Price Flight Ticket</h3>
+            <div class="Flightwrap">
+                <div class="Flight-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <a href="#"><img src="images/sub02_img01.png" alt="이미지1"></a>
+                </div>
+                <div class="Flight-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <a href="#"><img src="images/sub02_img02.png" alt="이미지1"></a>
+                </div>
+                <div class="Flight-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <a href="#"><img src="images/sub02_img03.png" alt="이미지1"></a>
+                </div>
+                <div class="Flight-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <a href="#"><img src="images/sub02_img04.png" alt="이미지1"></a>
+                </div>
+                <div class="Flight-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <a href="#"><img src="images/sub02_img05.png" alt="이미지1"></a>
+                </div>
+                <div class="Flight-box">
+                    <ul class="heart">
+                        <li class="on"><img src="images/heart-white.png" alt="heart1" ></li>
+                        <li class="heart2"><img src="images/heart-red.png" alt="heart1"></li>
+                    </ul>
+                    <a href="#"><img src="images/sub02_img06.png" alt="이미지1"></a>
+                </div>
+            </div>
+            <div class="Flight_butten">
+                <input type="submit" value="더보기 >">
+            </div>                
+        </div>
+    </section>
+    <!-- 1.최저가항공권 끝 -->
+    <!-- 2.항공사 최저 -->
+    <section>
+        <div class="airline">
+            <h5>항공사 최저가</h5>
+            <h3>Low Price by airline</h3>
+            <div class="air_butten">
+                <ul>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_air01.png" alt="airbt"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_air02.png" alt="airbt"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_air03.png" alt="airbt"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_air04.png" alt="airbt"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_air05.png" alt="airbt"></a></li>
+                </ul>
+            </div>
+            <div class="air_menu">
+                <ul>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay01.png" alt="pay"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay02.png" alt="pay"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay03.png" alt="pay"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay04.png" alt="pay"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay05.png" alt="pay"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay06.png" alt="pay"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay07.png" alt="pay"></a></li>
+                    <li><a href="#"><img src="../14_코딩/images/sub02_pay08.png" alt="pay"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- 2.항공사 최저 끝 -->    
+<!--3.버튼 -->
+<section>
+    <div class="butten_out">
+        <div class="butten">
+            <ul class="butwarp">
+                <li>
+                    <a href="#">
+                        <img src="images/butten_01.png" alt="b01" class="on">
+                        <img src="images/butten_01white.png" alt="b01"  class="btn_block">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/butten_02.png" alt="b02" class="on">
+                        <img src="images/butten_02white.png" alt="b02" class="btn_block">
+                    </a>
+                </li>
+                <li><a href="#">
+                        <img src="images/butten_03.png" alt="b03" class="on">
+                        <img src="images/butten_03white.png" alt="b03" class="btn_block">
+                    </a>
+                </li>
+                <li><a href="#">
+                        <img src="images/butten_04.png" alt="b04" class="on">
+                        <img src="images/butten_04white.png" alt="b04" class="btn_block">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section> -->
+<!-- 3.버튼 끝-->
+
+<!-- 4.하단 -->
+<footer>
+    <div class="line-bar">
+        <div class="linewrap">
+            <ul class="line-txt">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">서비스이용약관</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">광고/제휴문의</a></li>
+                <li><a href="#">전자우편무단수집거부</a></li>
+            </ul>
+            <ul class="line-img">
+                <li><a href="#"><img src="images/10_youtube.png" alt="line1"></a></li>
+                <li><a href="#"><img src="images/10_instar.png" alt="line2"></a></li>
+                <li><a href="#"><img src="images/10_kakao.png" alt="line3"></a></li>
+                <li><a href="#"><img src="images/10_facebook.png" alt="line4"></a></li>
+                <li><a href="#"><img src="images/10_tweeter.png" alt="line5"></a></li>
+                <li><a href="#"><img src="images/10_blog.png" alt="line6"></a></li>
+            </ul>
+        </div>
+    </div>
+
+<div class="footerline">
+    <div class="footer_box">
+        <div class="footerline-wrap">
+            <div class="under-logo">
+                <a href="#"><img src="images/001logo_text.png" alt="fontlogo1"></a><br>
+            </div>
+            <div class="footer-txt">
+            <p>상호명 : (주)클라우드 트립 &nbsp;  사업장소재지 : 서울특별시 강남구 선릉로 혜림빌딩 &nbsp; 팩스 : 070-0000-0000
+            &nbsp; 사업자등록번호 : 000-00-00000 <br>고객센터 : 1234-5678 &nbsp; 상담시간 00:00-24:00 / OFF-TIME 12:00-13:00 (공휴일 휴무)
+            이메일 : HELLO@CLOUDTRIP.CO.KR <br>대표이사 : 이아람 &nbsp; 개인정보책임자 : 이아람 <br>
+            CLOUDTRIP에서 중계되는 모든 상품은 각 업체에서 책임을 지고 있습니다.
+                </p>
+            </div>
+            <div class="end">
+                <p><a href="#">개인정보처리방침</a>&nbsp;|&nbsp; <a href="#">이용약관</a></p>
+                <p>COPYRIGHT 2021. CLOUDTIRP ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+        <div class="footercs">
+            <div class="cs">
+                <h5>CS CENTER</h5>
+                <h2>1234-5678</h2>
+                <p>AM 00:00 ~ PM 24:00</p>
+                <P>OFF-TIME 12:00 ~ 13:00</P>
+                <P>공휴일은 휴무입니다.</P>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+<script type="text/javascript">
+    var sw=true;
+$('.heart li').click(function(){
+      $(this).removeClass('on').siblings().addClass('on');
+    });
+
+ $('.menu li').mouseenter(function(){
+      $(".topwrap").addClass('on');
+      $(".submenu").addClass('on');
+    });
+    $('.topwrap').mouseleave(function(){
+      $(".topwrap").removeClass('on');
+      $(".submenu").removeClass('on');
+    });
+
+
+</script>
+</html> -->
